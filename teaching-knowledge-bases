@@ -1,0 +1,69 @@
+graph TD
+    A[The Interconnection of Teaching Knowledge Bases]
+
+    subgraph Section1[Understanding Teaching Knowledge Bases]
+        A1[Page 1.1: The Complexity of Teaching Expertise]
+        A2[Page 1.2: Extensive Knowledge Base for Teaching]
+        Section1 --> A1
+        Section1 --> A2
+    end
+
+    subgraph Section2[Sources of Teaching Knowledge Bases]
+        B1[Page 2.1: Scholarship in Content Disciplines]
+        B2[Page 2.2: Formal Educational Scholarship]
+        Section2 --> B1
+        Section2 --> B2
+    end
+
+    subgraph Section3[The Relationship of Pedagogical Reasoning and Action with Teaching Knowledge Bases]
+        C1[Page 3.1: Model of Pedagogical Reasoning and Action]
+        C2[Page 3.2: Reflection and New Comprehensions]
+        Section3 --> C1
+        Section3 --> C2
+    end
+
+    A --> Section1
+    A --> Section2
+    A --> Section3
+
+    subgraph Page1.1
+        A1a[Beyond Classroom Management]
+        A1b[Four-Level Framework]
+        A1 --> A1a
+        A1 --> A1b
+    end
+
+    subgraph Page1.2
+        A2a[Sources of Knowledge]
+        A2b[Four Major Sources]
+        A2 --> A2a
+        A2 --> A2b
+    end
+
+    subgraph Page2.1
+        B1a[Content Knowledge]
+        B1b[Educational Materials and Structures]
+        B1 --> B1a
+        B1 --> B1b
+    end
+
+    subgraph Page2.2
+        B2a[Research on Schooling]
+        B2b[Wisdom of Practice]
+        B2 --> B2a
+        B2 --> B2b
+    end
+
+    subgraph Page3.1
+        C1a[Comprehension and Transformation]
+        C1b[Instruction and Evaluation]
+        C1 --> C1a
+        C1 --> C1b
+    end
+
+    subgraph Page3.2
+        C2a[Reflection]
+        C2b[New Comprehensions]
+        C2 --> C2a
+        C2 --> C2b
+    end
